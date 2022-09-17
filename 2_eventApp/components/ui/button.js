@@ -11,6 +11,7 @@ const Button = ({ link, children, onClick }) => {
   }
 
   //링크가 없을 때
+  //아래와 같이 onClick을 해야 내장함수처럼 사용가능하다.
   return (
     <button className={classes.btn} onClick={onClick}>
       {children}
